@@ -1,4 +1,5 @@
 
+// Author Amruldin Jamalli
 
 let camera, controls, scene, renderer,orbit;
 let myObject = null;
