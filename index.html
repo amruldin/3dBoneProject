@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>3D Bone Quiz</title>
+    <title>Your App Title</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
     <script src="js/MTLLoader.js"></script>
     <script src="js/OBJLoader.js"></script>
@@ -12,6 +12,21 @@
     <script src="js/TrackballControls.js"></script>
 </head>
 <body>
+
+    <div class="quizBox">
+        <div class="question">
+            <p>Is the distal tip broken?</p>
+        </div>
+
+        <div class="answers">
+            <label for="">Yes<input type="radio" name="opt" id="yes" value="yes"></label>
+            <label for="">No<input type="radio" name="opt" id="no" value="no"></label>
+            <button id="submit" class="btn">Submit</button> 
+        </div>
+
+        <h2 id="result"></h2>
+
+    </div>
     
 
     <script src="main.js"></script>

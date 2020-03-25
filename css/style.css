@@ -4,3 +4,57 @@ body{
     padding: 0;
     background: hsl(0, 0%, 10%);
 }
+
+.quizBox{
+    position: absolute;
+    left: 15%;
+    top: 40px;
+    width: 70%;
+    height: 100px;
+    border-bottom: 3px solid rgb(208, 226, 243);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.question{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.question p{
+    margin-bottom: 10px;
+}
+
+body .quizBox .answers{
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(145, 190, 229);
+    color: azure;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: rgb(5, 89, 216);
+   
+}
+
+.answers{
+    color: white;
+    font-size: 1em;
+}
+
+label{
+    padding: 20px;
+    text-transform: uppercase;
+}
+
